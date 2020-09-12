@@ -1,5 +1,6 @@
 (ns closure-two.core
   (:gen-class))
+(load-file "./lib-mine.clj")
 (declare test-args)
 
 (defn -main
@@ -7,11 +8,7 @@
   [& args]
   (println "Hello, World! At last II")
   (println (test-args (first args)))
+  (validate-args args)
 )
 
-(defn test-args [value]
-  (if (= value "Zoom") 
-      (println "Zoom Ok")
-      (println "Zoom Nok")
-  )
-)
+
