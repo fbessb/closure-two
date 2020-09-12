@@ -1,4 +1,5 @@
-; some example of libraries just for me.
+;   some example of libraries just for me.
+;   2020-09-12 - All Defn in that file
 (defn validate-args [value]
     (if (= (first value) "Zoom")
         (println "Zoom Ok (II)")

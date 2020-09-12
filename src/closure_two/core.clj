@@ -1,6 +1,6 @@
 (ns closure-two.core
   (:gen-class))
-(load-file "lib-mine.clj")
+(load-file "src/closure_two/lib-mine.clj")
 (declare test-args)
 
 (defn -main
