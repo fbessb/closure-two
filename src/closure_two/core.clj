@@ -1,3 +1,6 @@
+; HEADER of this file
+; =====================
+
 (ns closure-two.core
   (:gen-class))
 (load-file "src/closure_two/lib-mine.clj")
