@@ -5,6 +5,7 @@
         (println "Zoom Ok (II)")
         (println "Zoom Nok (II)")
     )
+    (println "=============")
 )
 
 (defn test-args [value]
